@@ -1,7 +1,7 @@
 {
   "name": "Adless",
   "description": "Adless, I hate ad to track my privacy.",
-  "version": "0.1",
+  "version": "0.21",
   "icons": { 
     "16": "images/icon16.png",
     "48": "images/icon48.png",

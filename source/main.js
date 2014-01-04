@@ -1,4 +1,4 @@
-function adless(){
+function adless_1(){
 	var _block = [
 		"s.alitui.weibo.com",
 		"70e.com"
@@ -14,8 +14,13 @@ function adless(){
 		}
 	}
 }
+function adless_2(){
+	//remove Weibo promotion;
+	$('[feedtype="ad"]').remove();
+}
 var _interval = window.setInterval(function(){
-	adless();
+	adless_1();
+	adless_2();
 }, 100);
 
 $(function(){
