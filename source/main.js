@@ -1,7 +1,8 @@
 function adless_1(){
 	var _block = [
-		"s.alitui.weibo.com",
-		"70e.com"
+		"s.alitui.weibo.com", //微博
+		"70e.com", //麒麟联盟
+		"cpro.baidu" //百度联盟
 	];
 	var _all = $('iframe, script');
 	for (var i = 0; i < _all.length; i ++){
@@ -19,7 +20,7 @@ function adless_2(){
 	$('[feedtype="ad"]').remove();
 }
 var _interval = window.setInterval(function(){
-	adless_1();
+	//adless_1(); // has moved to background.js
 	adless_2();
 }, 100);
 
